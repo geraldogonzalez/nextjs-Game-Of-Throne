@@ -57,7 +57,7 @@ export const GotCard: FC<Props> = ({ character }) => {
           <Row align='center'>
             <Col>
               <Text color="#ffffffAA" size={20}>
-                {family}'s house
+                {family}{"'"}s house
               </Text>
             </Col>
             <Col>

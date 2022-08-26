@@ -38,7 +38,7 @@ const CharacterPage: FC<Props> = ({ character }) => {
 
   useEffect(() => {
     setIsInFavorites(localFavorites.existInFavorites(character.id));
-  }, []);
+  }, [character.id]);
 
 
   return (
