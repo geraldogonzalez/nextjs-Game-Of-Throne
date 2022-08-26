@@ -1,0 +1,1 @@
+export { default as gotApi } from './gotApi';
