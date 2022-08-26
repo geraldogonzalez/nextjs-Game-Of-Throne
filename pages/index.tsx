@@ -12,7 +12,7 @@ interface Props {
 
 const HomePage: NextPage<Props> = ({ characters }) => {
   return (
-    <Layout title="Characters List">
+    <Layout title="Game Of Thrones Character's List">
       <Grid.Container gap={5} justify='flex-start'>
         {characters.map((character) => (
           <GotCard
